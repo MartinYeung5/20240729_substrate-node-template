@@ -4,5 +4,5 @@ pub use pallet::*;
 
 #[frame_support::pallet]
 pub mod pallet {
-	
+	use frame_support::;
 }
