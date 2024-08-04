@@ -20,6 +20,7 @@ pub mod pallet {
 	#[pallet::generate_deposit(pub(super) fn deposit_event)]
 	pub enum Event<T: Config> {
 		ClaimCreated { who: T::AccountId, claim: T::Hash},
+		ClaimRevoked { who: T::AccountId, claim: T::Hash},
 	}
 	#[pallet::error]
 	#[pallet::atorage]
