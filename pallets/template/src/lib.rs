@@ -12,6 +12,9 @@ pub mod pallet {
 	pub struct Pallet<T>(_);
 
 	#[pallet::config]
+	pub trait Config: frame_system::Config {
+		type 
+	}
 	#[pallet::event]
 	#[pallet::error]
 	#[pallet::atorage]
