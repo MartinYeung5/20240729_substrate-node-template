@@ -8,8 +8,8 @@ pub mod pallet {
 	use frame_system::pallet_prelude::*;
 
 	#[pallet::config]
-	#[pallet::config]
-	#[pallet::config]
-	#[pallet::config]
-	#[pallet::config]
+	#[pallet::event]
+	#[pallet::error]
+	#[pallet::atorage]
+	#[pallet::call]
 }
