@@ -25,6 +25,8 @@ pub mod pallet {
 	#[pallet::error]
 	pub enum Error<T> {
 		AlreadtClaimed,
+		NoSuchClaim,
+		Not
 	}
 	#[pallet::atorage]
 	#[pallet::call]
