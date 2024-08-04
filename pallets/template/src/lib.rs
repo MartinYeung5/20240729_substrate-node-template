@@ -29,6 +29,6 @@ pub mod pallet {
 		NotClaimOwner,
 	}
 	#[pallet::atorage]
-	pub(super) type Claim<T:config> = StorageMap<_, Blake2_123Concat,
+	pub(super) type Claim<T:config> = StorageMap<_, Blake2_123Concat, T::Hash, (T::AccountId,)
 	#[pallet::call]
 }
