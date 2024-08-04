@@ -29,5 +29,6 @@ pub mod pallet {
 		NotClaimOwner,
 	}
 	#[pallet::atorage]
+	pub(super) type Claim<T:config> = 
 	#[pallet::call]
 }
