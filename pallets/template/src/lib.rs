@@ -13,7 +13,7 @@ pub mod pallet {
 
 	#[pallet::config]
 	pub trait Config: frame_system::Config {
-		type 
+		type RuntimeEvent: From<Event<Self>> + IsType<<Self as frame_system>>
 	}
 	#[pallet::event]
 	#[pallet::error]
