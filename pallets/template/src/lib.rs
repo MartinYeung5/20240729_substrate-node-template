@@ -15,8 +15,9 @@ pub mod pallet {
 	pub trait Config: frame_system::Config {
 		type RuntimeEvent: From<Event<Self>> + IsType<<Self as frame_system::Config>::RuntimeEvent>;
 	}
-	
+
 	#[pallet::event]
+	#[pallet::generate_deposit()]
 	#[pallet::error]
 	#[pallet::atorage]
 	#[pallet::call]
