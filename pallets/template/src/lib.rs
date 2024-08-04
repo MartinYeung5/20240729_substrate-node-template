@@ -30,7 +30,7 @@ pub mod pallet {
 		NoSuchClaim,
 		NotClaimOwner,
 	}
-	#[pallet::atorage]
+	#[pallet::storage]
 	pub(super) type Claims<T: Config> = StorageMap<_, Blake2_128Concat, T::Hash, (T::AccountId, T::BlockNumber)>;
 	
 #[pallet::call]
