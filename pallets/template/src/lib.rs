@@ -31,7 +31,7 @@ pub mod pallet {
 		NotClaimOwner,
 	}
 	#[pallet::storage]
-	pub(super) type Claims<T: Config> = StorageMap<_, Blake2_128Concat, T::Hash, (T::AccountId, T::BlockNumber)>;
+	pub(super) type Claims<T: Config> = StorageMap<_, Blake2_128Concat, T::Hash, (T::AccountId, BlockNumberFor<T>)>;
 
 #[pallet::call]
 impl<T: Config> Pallet<T> {
