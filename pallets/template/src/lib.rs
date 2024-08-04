@@ -3,3 +3,6 @@
 pub use pallet::*;
 
 #[frame_support::pallet]
+pub mod pallet {
+	
+}
