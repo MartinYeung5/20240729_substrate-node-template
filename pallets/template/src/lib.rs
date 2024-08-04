@@ -17,7 +17,7 @@ pub mod pallet {
 	}
 
 	#[pallet::event]
-	#[pallet::generate_deposit()]
+	#[pallet::generate_deposit(pub(super) fn deposit_event)]
 	#[pallet::error]
 	#[pallet::atorage]
 	#[pallet::call]
