@@ -26,13 +26,13 @@ pub mod pallet {
 	}
 	#[pallet::error]
 	pub enum Error<T> {
-		AlreadtClaimed,
+		AlreadyClaimed,
 		NoSuchClaim,
 		NotClaimOwner,
 	}
 	#[pallet::storage]
 	pub(super) type Claims<T: Config> = StorageMap<_, Blake2_128Concat, T::Hash, (T::AccountId, T::BlockNumber)>;
-  
+
 #[pallet::call]
 impl<T: Config> Pallet<T> {
   #[pallet::weight(0)]
