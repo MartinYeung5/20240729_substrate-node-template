@@ -23,6 +23,9 @@ pub mod pallet {
 		ClaimRevoked { who: T::AccountId, claim: T::Hash},
 	}
 	#[pallet::error]
+	pub enum Error<T> {
+		
+	}
 	#[pallet::atorage]
 	#[pallet::call]
 }
