@@ -16,6 +16,9 @@ FRAME pallets require their own "mock runtimes" to be able to run unit tests
 2. why use test.rs?
 // This module contains the unit tests for this pallet.
 
+3. benchmarking.rs
+The benchmarking module is used to calculate weights
+
 # Substrate Node Template
 
 A fresh [Substrate](https://substrate.io/) node, ready for hacking :rocket:
