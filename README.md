@@ -9,6 +9,14 @@ github: https://github.com/MartinYeung5/20240729_substrate-node-template
 2. git clone https://github.com/substrate-developer-hub/substrate-node-template
 3. cd substrate-node-template
 4. cargo build --release
+In the same terminal where you compiled your node, you can now start the node in development mode by running the following command:
+
+1. ./target/release/node-template --dev
+2. go back window vscode
+git clone https://github.com/substrate-developer-hub/substrate-front-end-template
+3. yarn install
+4. yarn start
+
 
 ## 20240806
 1. study pallet
