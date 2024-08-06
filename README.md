@@ -1,4 +1,5 @@
 # 20240729_substrate-node-template
+https://docs.substrate.io/quick-start/start-a-node/
 git clone https://github.com/substrate-developer-hub/substrate-node-template
 
 github: https://github.com/MartinYeung5/20240729_substrate-node-template
