@@ -2,6 +2,12 @@
 
 github: https://github.com/MartinYeung5/20240729_substrate-node-template
 
+
+## 20240806
+1. study pallet
+https://github.com/paritytech/polkadot-sdk/blob/master/templates/solochain/pallets/template/src/lib.rs
+
+
 # Substrate Node Template
 
 A fresh [Substrate](https://substrate.io/) node, ready for hacking :rocket:
