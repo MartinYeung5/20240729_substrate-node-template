@@ -11,7 +11,10 @@ github: https://github.com/MartinYeung5/20240729_substrate-node-template
 4. cargo build --release
 In the same terminal where you compiled your node, you can now start the node in development mode by running the following command:
 
-1. ./target/release/node-template --dev
+5. ./target/release/node-template --dev
+- go to 網址 links:
+https://polkadot.js.org/apps/#/explorer?rpc=ws://localhost:9944
+
 2. go back window vscode
 git clone https://github.com/substrate-developer-hub/substrate-front-end-template
 3. yarn install
