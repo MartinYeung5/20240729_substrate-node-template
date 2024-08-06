@@ -9,6 +9,8 @@ github: https://github.com/MartinYeung5/20240729_substrate-node-template
 1. study pallet
 https://github.com/paritytech/polkadot-sdk/blob/master/templates/solochain/pallets/template/src/lib.rs
 
+issue:
+1. why use mock.rs?
 
 # Substrate Node Template
 
