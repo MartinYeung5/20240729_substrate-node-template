@@ -13,7 +13,8 @@ issue:
 1. why use mock.rs?
 FRAME pallets require their own "mock runtimes" to be able to run unit tests
 
-
+2. why use test.rs?
+// This module contains the unit tests for this pallet.
 
 # Substrate Node Template
 
