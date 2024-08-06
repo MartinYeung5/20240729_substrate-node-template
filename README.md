@@ -11,6 +11,9 @@ https://github.com/paritytech/polkadot-sdk/blob/master/templates/solochain/palle
 
 issue:
 1. why use mock.rs?
+FRAME pallets require their own "mock runtimes" to be able to run unit tests
+
+
 
 # Substrate Node Template
 
